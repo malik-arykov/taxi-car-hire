@@ -1,0 +1,29 @@
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.page-number {
+    width: 60px;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.btn-image {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-outline-info:hover {
+    filter: invert(1);
+}
+
+footer {
+	position: fixed;
+	width:100%;
+	bottom: 0;
+}
